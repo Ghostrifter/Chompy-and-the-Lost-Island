@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &2657187294559668276
+--- !u!1 &1846779668730771691
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2657187294559668282}
-  - component: {fileID: 2657187294559668277}
+  - component: {fileID: 1536084161100501166}
+  - component: {fileID: 9110019637543743121}
   m_Layer: 0
-  m_Name: GameStatus
+  m_Name: KeyboardInput
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &2657187294559668282
+--- !u!4 &1536084161100501166
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2657187294559668276}
+  m_GameObject: {fileID: 1846779668730771691}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.08292021, y: 1.2805628, z: -1.0003476}
+  m_LocalPosition: {x: -165.9403, y: 8.374441, z: 1.6664485}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2657187294559668277
+--- !u!114 &9110019637543743121
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2657187294559668276}
+  m_GameObject: {fileID: 1846779668730771691}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e83d005adfd59b346a6875b9090374dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 2339366ebf9cff145ae32ed38f6c8d2b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

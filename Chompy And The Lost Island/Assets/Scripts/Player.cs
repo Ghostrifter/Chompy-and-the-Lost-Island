@@ -12,14 +12,6 @@ public class Player : MonoBehaviour
         healthBar.SetHealth(health);
     }
 
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.R))
-        {
-            TakeDamage(20);
-        }
-    }
-
     public void TakeDamage (int damage)
     {
         health -= damage;

@@ -4,7 +4,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class GameOverMenu : MonoBehaviour
+public class GameOverMenu : MenuCore
 {
     public GameObject gameOverMenuUI;
     public GameObject HUD;

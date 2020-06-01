@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class PauseMenu : MonoBehaviour
+public class PauseMenu : MenuCore
 {
     public static bool GameIsPaused = false;
     public GameObject pauseMenuUI;
@@ -47,7 +47,6 @@ public class PauseMenu : MonoBehaviour
 
     public void LoadMenu()
     {
-        Time.timeScale = 1f;
         SceneManager.LoadScene(0);
     }
 
