@@ -857,7 +857,7 @@ PrefabInstance:
     - target: {fileID: 4003052222117177505, guid: f445ff94df8b2894e8b2cd4b4aa60391,
         type: 3}
       propertyPath: moveSpots.Array.size
-      value: 2
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4003052222117177505, guid: f445ff94df8b2894e8b2cd4b4aa60391,
         type: 3}
@@ -873,12 +873,12 @@ PrefabInstance:
         type: 3}
       propertyPath: moveSpots.Array.data[0]
       value: 
-      objectReference: {fileID: 877564429}
+      objectReference: {fileID: 0}
     - target: {fileID: 4003052222117177505, guid: f445ff94df8b2894e8b2cd4b4aa60391,
         type: 3}
       propertyPath: moveSpots.Array.data[1]
       value: 
-      objectReference: {fileID: 1246522437}
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f445ff94df8b2894e8b2cd4b4aa60391, type: 3}
 --- !u!1 &977637289

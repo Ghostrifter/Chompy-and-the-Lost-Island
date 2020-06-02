@@ -72,6 +72,33 @@ MonoBehaviour:
     loop: 0
     mixerGroup: {fileID: 24300002, guid: 8676ecb4db2944f47ac0312dce0cb0f2, type: 2}
     source: {fileID: 0}
+  - name: PlayerWalk
+    clip: {fileID: 8300000, guid: 0921a4b3e8b60ae49850b60d503a503d, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0.2
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8676ecb4db2944f47ac0312dce0cb0f2, type: 2}
+    source: {fileID: 0}
+  - name: PlayerHurt
+    clip: {fileID: 8300000, guid: 0921a4b3e8b60ae49850b60d503a503d, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0.2
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8676ecb4db2944f47ac0312dce0cb0f2, type: 2}
+    source: {fileID: 0}
+  - name: PlayerAttack
+    clip: {fileID: 8300000, guid: 0921a4b3e8b60ae49850b60d503a503d, type: 3}
+    volume: 0.3
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0.2
+    loop: 0
+    mixerGroup: {fileID: 24300002, guid: 8676ecb4db2944f47ac0312dce0cb0f2, type: 2}
+    source: {fileID: 0}
   - name: Collect
     clip: {fileID: 8300000, guid: 3c911415c77dc0a4789b2426062c6ef7, type: 3}
     volume: 0.6

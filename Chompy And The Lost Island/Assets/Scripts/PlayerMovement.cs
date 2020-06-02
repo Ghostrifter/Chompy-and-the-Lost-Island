@@ -8,7 +8,7 @@ namespace chompyandthelostisland
     {
         public float moveSpeed;
 
-        void Update()
+        void FixedUpdate()
         {
             if(VirtualInputManager.Instance.MoveRight && VirtualInputManager.Instance.MoveLeft)
             {
