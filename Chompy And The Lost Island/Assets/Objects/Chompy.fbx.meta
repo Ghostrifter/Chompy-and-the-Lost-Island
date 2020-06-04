@@ -1,8 +1,14 @@
 fileFormatVersion: 2
-guid: d2c35da5f9442804cbcf9ddaa5c61720
+guid: e3f5d7073ed95a442ab77da6854afcb1
 ModelImporter:
   serializedVersion: 26
   internalIDToNameTable:
+  - first:
+      74: 8357050546788074191
+    second: Armature|AttackingAction
+  - first:
+      74: 7564464943079553004
+    second: Armature|AttackingAction.001
   - first:
       74: 5100922311529692459
     second: Armature|FlyingAction
