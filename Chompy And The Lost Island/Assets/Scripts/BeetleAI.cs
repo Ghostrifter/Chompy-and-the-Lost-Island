@@ -17,7 +17,7 @@ public class BeetleAI : MonoBehaviour
         randomSpot = Random.Range(0, moveSpots.Length);
     }
 
-    void Update()
+    /*void Update()
     {
         transform.position = Vector3.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
 
@@ -33,5 +33,5 @@ public class BeetleAI : MonoBehaviour
                 waitTime -= Time.deltaTime;
             }
         }
-    }
+    }*/
 }
