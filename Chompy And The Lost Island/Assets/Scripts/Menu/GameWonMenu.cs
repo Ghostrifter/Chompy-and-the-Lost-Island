@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class GameWonMenu : MenuCore
+public class GameWonMenu : MonoBehaviour
 {
     public GameObject gameWonMenuUI;
     public GameObject HUD;
@@ -15,10 +15,9 @@ public class GameWonMenu : MenuCore
         Time.timeScale = 0f;
     }
 
-    public void NextLevel()
+    public void Replay()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
-        //SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 }

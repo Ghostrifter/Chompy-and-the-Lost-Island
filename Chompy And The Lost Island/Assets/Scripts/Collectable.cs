@@ -5,6 +5,7 @@ using UnityEngine;
 public class Collectable : MonoBehaviour
 {
     public int score = 10;
+    public int rotationSpeed;
 
     private void OnTriggerEnter(Collider collider)
     {
@@ -14,5 +15,10 @@ public class Collectable : MonoBehaviour
             GameStatus.GetInstance().AddScore(score);
             Destroy(gameObject);
         }
+    }
+
+    void Update()
+    {
+        transform.Rotate(0, rotationSpeed, 0, Space.World);
     }
 }

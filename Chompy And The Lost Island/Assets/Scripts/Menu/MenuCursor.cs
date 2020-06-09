@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class MenuCore : MonoBehaviour
+public class MenuCursor : MonoBehaviour
 {
     private void Update()
     {
@@ -12,7 +12,7 @@ public class MenuCore : MonoBehaviour
         }
         else
         {
-            if(Time.timeScale == 1f)
+            if (Time.timeScale == 1f)
             {
                 Cursor.visible = false;
             }
