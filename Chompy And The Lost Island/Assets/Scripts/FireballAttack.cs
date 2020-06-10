@@ -18,21 +18,19 @@ public class FireballAttack : MonoBehaviour
 
     void Update()
     {
-        if (Input.GetMouseButtonDown(0) && Time.time >= timeToFire)
+        if (Input.GetMouseButtonDown(0) && Time.time >= timeToFire && Time.timeScale == 1f)
         {
             animator.SetBool("Attack", true);
             timeToFire = Time.time + 1 / fireRate;
             Invoke("Shoot", shootDelay);
+            AudioManager.instance.Play("PlayerAttack");
         }
     }
 
     void Shoot()
     {
-        if(Time.timeScale == 1f)
-        {
-            Instantiate(fireballPrefab, firePoint.position, firePoint.rotation);
-            animator.SetBool("Attack", false);
-        }
+        Instantiate(fireballPrefab, firePoint.position, firePoint.rotation);
+        animator.SetBool("Attack", false);
     }
     
 }

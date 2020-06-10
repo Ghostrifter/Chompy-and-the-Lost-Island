@@ -58,6 +58,11 @@ namespace chompyandthelostisland
         {
             isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
+            if(isGrounded && VirtualInputManager.Instance.MoveLeft || isGrounded && VirtualInputManager.Instance.MoveRight)
+            {
+                AudioManager.instance.Play("PlayerWalk");
+            }
+
             if (isGrounded)
             {
                 animator.SetBool("Jump", false);

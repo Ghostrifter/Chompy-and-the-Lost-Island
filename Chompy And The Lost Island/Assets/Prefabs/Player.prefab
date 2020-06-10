@@ -412,11 +412,11 @@ MonoBehaviour:
   animator: {fileID: 7614587646898188376}
   jumpForce: 5
   defaultJumpAllowed: 1
-  groundCheck: {fileID: 0}
+  groundCheck: {fileID: 4781912485066065990}
   groundDistance: 0.4
   groundMask:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 256
 --- !u!1 &4716053212117369856
 GameObject:
   m_ObjectHideFlags: 0

@@ -47,7 +47,7 @@ MonoBehaviour:
   sounds:
   - name: GameWin
     clip: {fileID: 8300000, guid: 87de14a994b67e04590053b3667418c7, type: 3}
-    volume: 0.6
+    volume: 0.8
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
@@ -56,7 +56,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: GameOver
     clip: {fileID: 8300000, guid: b8f0224685b9b644aa57c2242235919e, type: 3}
-    volume: 0.6
+    volume: 0.8
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
@@ -73,8 +73,8 @@ MonoBehaviour:
     mixerGroup: {fileID: 24300002, guid: 8676ecb4db2944f47ac0312dce0cb0f2, type: 2}
     source: {fileID: 0}
   - name: PlayerWalk
-    clip: {fileID: 8300000, guid: 0921a4b3e8b60ae49850b60d503a503d, type: 3}
-    volume: 0.3
+    clip: {fileID: 8300000, guid: 43b6aca376c557b44b74656f3ee94544, type: 3}
+    volume: 0.6
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0.2
@@ -82,19 +82,19 @@ MonoBehaviour:
     mixerGroup: {fileID: 24300002, guid: 8676ecb4db2944f47ac0312dce0cb0f2, type: 2}
     source: {fileID: 0}
   - name: PlayerHurt
-    clip: {fileID: 8300000, guid: 0921a4b3e8b60ae49850b60d503a503d, type: 3}
-    volume: 0.3
+    clip: {fileID: 8300000, guid: c687fd39271b423408c10cbdf56dcd9c, type: 3}
+    volume: 0.8
     volumeVariance: 0
-    pitch: 1
-    pitchVariance: 0.2
+    pitch: 1.1
+    pitchVariance: 0.3
     loop: 0
     mixerGroup: {fileID: 24300002, guid: 8676ecb4db2944f47ac0312dce0cb0f2, type: 2}
     source: {fileID: 0}
   - name: PlayerAttack
-    clip: {fileID: 8300000, guid: 0921a4b3e8b60ae49850b60d503a503d, type: 3}
-    volume: 0.3
+    clip: {fileID: 8300000, guid: cbecbc5a781ba6648802bc8c86f4f79a, type: 3}
+    volume: 0.5
     volumeVariance: 0
-    pitch: 1
+    pitch: 0.9
     pitchVariance: 0.2
     loop: 0
     mixerGroup: {fileID: 24300002, guid: 8676ecb4db2944f47ac0312dce0cb0f2, type: 2}
