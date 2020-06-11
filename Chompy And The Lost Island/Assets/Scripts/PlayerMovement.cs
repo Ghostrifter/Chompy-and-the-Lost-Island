@@ -60,7 +60,7 @@ namespace chompyandthelostisland
 
             if(isGrounded && VirtualInputManager.Instance.MoveLeft || isGrounded && VirtualInputManager.Instance.MoveRight)
             {
-                AudioManager.instance.Play("PlayerWalk");
+                //AudioManager.instance.Play("PlayerWalk");
             }
 
             if (isGrounded)

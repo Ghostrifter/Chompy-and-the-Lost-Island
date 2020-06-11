@@ -65,7 +65,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: PlayerJump
     clip: {fileID: 8300000, guid: 0921a4b3e8b60ae49850b60d503a503d, type: 3}
-    volume: 0.3
+    volume: 0.5
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0.2
@@ -74,7 +74,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: PlayerWalk
     clip: {fileID: 8300000, guid: 43b6aca376c557b44b74656f3ee94544, type: 3}
-    volume: 0.6
+    volume: 0.8
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0.2
@@ -92,7 +92,7 @@ MonoBehaviour:
     source: {fileID: 0}
   - name: PlayerAttack
     clip: {fileID: 8300000, guid: cbecbc5a781ba6648802bc8c86f4f79a, type: 3}
-    volume: 0.5
+    volume: 0.8
     volumeVariance: 0
     pitch: 0.9
     pitchVariance: 0.2
