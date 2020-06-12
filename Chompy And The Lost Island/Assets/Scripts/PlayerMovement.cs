@@ -58,21 +58,19 @@ namespace chompyandthelostisland
         {
             isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
 
-            if(isGrounded && VirtualInputManager.Instance.MoveLeft || isGrounded && VirtualInputManager.Instance.MoveRight)
+            /*if(isGrounded == true && rig.velocity.magnitude > 2f && GetComponent<AudioSource>().isPlaying == false)
             {
-                //AudioManager.instance.Play("PlayerWalk");
-            }
+                GetComponent<AudioSource>().Play();
+            }*/
 
             if (isGrounded)
             {
                 animator.SetBool("Jump", false);
-                Debug.Log("Is Grounded");
             }
 
             if (!isGrounded)
             {
                 animator.SetBool("Jump", true);
-                Debug.Log("Not Grounded");
             }
 
             if (Input.GetButtonDown("Jump"))

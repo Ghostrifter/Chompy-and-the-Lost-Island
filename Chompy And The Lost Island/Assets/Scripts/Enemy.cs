@@ -8,9 +8,12 @@ public class Enemy : MonoBehaviour
     public int xp = 5;
 
     public HealthBar healthBar;
+    public Animator animator;
+    BeetleAI beetleMove;
 
     void Start()
     {
+        beetleMove = gameObject.GetComponent<BeetleAI>();
         healthBar.SetHealth(health);
     }
 
@@ -22,9 +25,11 @@ public class Enemy : MonoBehaviour
 
         if (health <= 0)
         {
-            AudioManager.instance.Play("EnemyDeath");
-            Die();
+            beetleMove.enabled = !beetleMove.enabled;
+            AudioManager.instance.Play("BeetleDeath");
             GameStatus.GetInstance().AddScore(xp);
+            //Invoke("Die", 2.5f);
+            Die();
         }
     }
 

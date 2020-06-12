@@ -12,16 +12,18 @@ public class BeetleAI : MonoBehaviour
     public Transform[] moveSpots;
     private int randomSpot;
 
+
     void Start()
     {
         randomSpot = Random.Range(0, moveSpots.Length);
     }
 
-    /*void Update()
+    void  FixedUpdate()
     {
         transform.position = Vector3.MoveTowards(transform.position, moveSpots[randomSpot].position, speed * Time.deltaTime);
 
-        if (Vector3.Distance(transform.position, moveSpots[randomSpot].position) <0.2f)
+
+        if (Vector3.Distance(transform.position, moveSpots[randomSpot].position) <1f)
         {
             if (waitTime <= 0)
             {
@@ -33,5 +35,5 @@ public class BeetleAI : MonoBehaviour
                 waitTime -= Time.deltaTime;
             }
         }
-    }*/
+    }
 }

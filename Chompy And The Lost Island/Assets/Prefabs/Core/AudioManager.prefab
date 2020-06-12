@@ -77,8 +77,8 @@ MonoBehaviour:
     volume: 0.8
     volumeVariance: 0
     pitch: 1
-    pitchVariance: 0.2
-    loop: 0
+    pitchVariance: 0.1
+    loop: 1
     mixerGroup: {fileID: 24300002, guid: 8676ecb4db2944f47ac0312dce0cb0f2, type: 2}
     source: {fileID: 0}
   - name: PlayerHurt
@@ -126,9 +126,18 @@ MonoBehaviour:
     loop: 0
     mixerGroup: {fileID: 24300002, guid: 8676ecb4db2944f47ac0312dce0cb0f2, type: 2}
     source: {fileID: 0}
-  - name: EnemyDeath
+  - name: BeetleIdle
     clip: {fileID: 8300000, guid: b49a89dffcbd4be4993152cbe24a0747, type: 3}
     volume: 0.6
+    volumeVariance: 0
+    pitch: 1
+    pitchVariance: 0
+    loop: 1
+    mixerGroup: {fileID: 24300002, guid: 8676ecb4db2944f47ac0312dce0cb0f2, type: 2}
+    source: {fileID: 0}
+  - name: BeetleDeath
+    clip: {fileID: 8300000, guid: 1839d60cbcd01e34781272ebffb50fe2, type: 3}
+    volume: 0.4
     volumeVariance: 0
     pitch: 1
     pitchVariance: 0
